@@ -9,11 +9,11 @@
   align-items: center;
   background: #ffffff;
   .navbar-logo {
-    margin-left: 30px;
+    margin-left: 100px;
     width: 90px;
   }
   > .nav-items {
-    /* margin-right: 30px; */
+    margin-right: 100px;
     > li {
       display: inline;
       font-size: 16px;

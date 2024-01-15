@@ -1,0 +1,28 @@
+.productCard {
+  width: 220px;
+  margin-bottom: 20px;
+  .product-pic {
+    border-radius: 13px;
+    width: auto;
+    max-height: 220px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  .pro-name {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #474747;
+  }
+  .pro-price {
+    font-weight: 700;
+    font-size: 16px;
+    color: #474747;
+  }
+  .pro-desc {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 7px;
+    color: #9f9f9f;
+  }
+}

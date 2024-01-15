@@ -1,0 +1,24 @@
+.product-page {
+  margin-top: 60px;
+  .product {
+    display: flex;
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+    }
+    .price {
+      font-weight: 700;
+      font-size: 32px;
+    }
+    #dropdown-basic {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-width: 300px;
+      border: 1px solid #9f9f9f;
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

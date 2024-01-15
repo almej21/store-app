@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/home" element={<Home />} index />
-          <Route path="/product/:name" element={<Product />} index />
+          <Route path="/product/:id" element={<Product />} index />
           <Route path="/cart" element={<Cart />} />
         </Routes>
         {/* </AppProvider> */}
